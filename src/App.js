@@ -1,21 +1,4 @@
 import { useState } from "react"
-
-// function Squre() {
-//   const [value, setValue] = useState (null)
-  
-//   function handleClick() {
-//     //console.log('clicked')
-//     setValue('X')
-//   }
-
-
-//   return (
-    
-//   <button className="squre" onClick={handleClick}> {value} </button>
-
-
-//   )
-//   }
 function Squre({value, onSquarClick}) {
   return <button className="square" onClick={onSquarClick}>
     {value}</button>;
